@@ -1,0 +1,12 @@
+platform :ios, '10.0'
+
+target 'TODO' do
+  use_frameworks!
+
+  # Pods for TODO
+  pod 'RealmSwift', '3.2.0-beta.3'
+  pod 'SwipeCellKit'
+  pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+end
+
+inhibit_all_warnings!
